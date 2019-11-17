@@ -8,7 +8,6 @@ home:
 
 
 
-
 ##pour afficher un bien précis (requierement c'est pour préciser le type de slug attendus en param)
 #property.show:
 #  path: /biens/{slug}-{id},
