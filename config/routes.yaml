@@ -1,0 +1,22 @@
+#nom du route home
+#chemin
+#controller : chemin de la classe qu'on veut appeler puis la nomDeLaClasse
+
+home:
+  path: /
+  controller: App\Controller\HomeController::index
+
+
+
+
+##pour afficher un bien précis (requierement c'est pour préciser le type de slug attendus en param)
+#property.show:
+#  path: /biens/{slug}-{id},
+#  controller: App\Controller\PropertyController::show
+#  requirements:  //il ne marche pas
+#  slug: [a-z0-9-_]+
+
+
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
